@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color:rgb(20, 86, 184);
+    text-align: center;
+}
+
+header h2 {
+    text-align: center;
+    color: #4b5563;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.detalhes, .perfil {
+    padding: 20px;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sobre-mim {
+    background-color:rgb(22, 56, 249);
+    padding: 20px;
+    border-radius: 16px;
+    color: white;
+    text-align: center;
+}
+
+.botao {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botao button {
+    padding: 10px 20px;
+    border: 2px solidrgb(22, 82, 249);
+    border-radius: 9999px;
+    color:rgb(22, 101, 249);
+    background: none;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.botao button:hover {
+    background-color:rgb(22, 94, 249);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-top: 20px;
+}
+
